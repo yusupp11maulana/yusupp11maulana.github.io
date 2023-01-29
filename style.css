@@ -1,0 +1,198 @@
+/* Navbar */
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 24px;
+  color: #f1faee;
+}
+
+.nav-link {
+  font-family: "Didact Gothic", sans-serif;
+  margin-right: 30px;
+  color: #a8dadc;
+}
+
+.container .rounded-circle {
+  width: 130px;
+  margin-bottom: 30px;
+  border: 7px solid #457b9d;
+}
+
+.warna-primary {
+  background: #1d3557;
+}
+
+/* Jumbotron */
+.jumbotron1 {
+  background: linear-gradient(180deg, #1d3557 0%, #3c6a87 100%);
+}
+
+.jumbo {
+  padding-top: 3.8rem;
+}
+
+.nama {
+  font-family: Didact Gothic, sans-serif;
+  font-weight: bold;
+  color: #a8dadc;
+  font-size: 1.8rem;
+}
+.keterangan {
+  font-family: Didact Gothic, sans-serif;
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+
+.warna-primary .navbar-toggler {
+  color: #a8dadc;
+  border-color: #457b9d;
+}
+.warna-primary .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Profil */
+.container .profil {
+  font-family: "Amaranth", sans-serif;
+  color: #1d3557;
+}
+
+.warna-profil p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #457b9d;
+  text-align: center;
+}
+
+.profil-icon,
+.port-icon {
+  height: 40px;
+  margin-right: 10px;
+}
+
+#about {
+  margin-top: -60px;
+}
+
+#portfolio {
+  padding-top: 3rem;
+}
+
+.bg-profil {
+  width: 250px;
+}
+
+/* CARD */
+.jumbotron2 {
+  background-color: #a8dadc;
+}
+.card-title {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  color: #1d3557;
+  font-size: 22px;
+}
+
+.card-text {
+  font-family: "Arimo", sans-serif;
+  color: #457b9d;
+}
+
+.card-title2 {
+  ont-family: "Didact Gothic", sans-serif;
+  color: #1d3557;
+  font-size: 18px;
+}
+.card-text2 {
+  font-family: "Arimo", sans-serif;
+  color: #457b9d;
+}
+
+.card {
+  border: 5px solid #1d3557;
+  box-sizing: border-box;
+  background: rgba(241, 250, 238, 0.8);
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 20px; /* Added */
+}
+
+.card-body {
+  height: 190px;
+}
+.card-img-top {
+  margin-top: -1px;
+}
+
+/* Footer */
+.uk-footer {
+  height: 45px;
+}
+
+.font-footer {
+  color: #f1faee;
+  margin-top: -40px;
+}
+
+strong {
+  color: #f1faee;
+}
+
+strong:hover {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Hover */
+.navbar-brand:hover {
+  color: #a8dadc;
+}
+
+.nav-link:hover {
+  color: #f1faee;
+}
+/* End Hover */
+
+section {
+  padding-top: 5rem;
+}
+
+@media (min-width: 992px) {
+  .container .rounded-circle {
+    width: 150px;
+    border: 8px solid #457b9d;
+  }
+
+  .nama {
+    font-size: 2.5rem;
+  }
+
+  .keterangan {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .warna-profil p {
+    text-align: start;
+  }
+
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 40px; /* Added */
+  }
+
+  .port-jumbo {
+    margin-top: -30px;
+  }
+}
