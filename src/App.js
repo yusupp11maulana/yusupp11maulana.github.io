@@ -29,7 +29,6 @@ function Maintenance() {
         <div className="text-center">
           <lottie-player className="text-center mb-5 img-fluid" src="https://assets8.lottiefiles.com/private_files/lf30_y9czxcb9.json" background="transparent" speed="1" loop="" autoplay="">
           </lottie-player>
-          <p>React</p>
         </div>
       </div>
     </>
